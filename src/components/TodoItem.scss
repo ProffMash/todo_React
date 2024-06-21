@@ -1,0 +1,34 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #444;
+    color: #fff;
+  
+    &.completed {
+      text-decoration: line-through;
+      color: #777;
+    }
+  
+    input[type='checkbox'] {
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  
+    span {
+      flex-grow: 1;
+    }
+  
+    button {
+      background: none;
+      border: none;
+      color: #ff4d4d;
+      cursor: pointer;
+  
+      &:hover {
+        color: #ff1a1a;
+      }
+    }
+  }
+  
